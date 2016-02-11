@@ -35,7 +35,7 @@ def simulation(default):     # Default setting 16
     for p in range(default):
         sim_dict[p] = multi_flip(p)
     # return sim_dict
-    for s in range(4):
+    for s in range(default):
         print(sim_dict[s])
 
-simulation(default)
+simulation(n)
